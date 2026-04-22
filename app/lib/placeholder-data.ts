@@ -14,18 +14,18 @@ const customers = [
     email: 'lee@delba.dev',
     image_url: '/customers/lee-robinson.png',
   },
-  {
-    id: '3958dc9e-742f-4377-85e9-fec4b6a6442b',
-    name: 'Hector Simpson',
-    email: 'hector@delba.dev',
-    image_url: '/customers/hector-simpson.png',
-  },
-  {
-    id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
-    name: 'Paola Castillo',
-    email: 'paola@delba.dev',
-    image_url: '/customers/paola-castillo.png',
-  },
+{
+  id: '3958dc9e-742f-4377-85e9-fec4b6a6442b',
+  name: 'Delba de Oliveira',
+  email: 'delba@delba.dev',
+  image_url: '/customers/delba-de-oliveira.png',
+},
+{
+  id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
+  name: 'Michael Novotny',
+  email: 'michael@novotny.dev',
+  image_url: '/customers/michael-novotny.png',
+},
   {
     id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
     name: 'Evil Rabbit',
@@ -83,12 +83,12 @@ const invoices = [
     status: 'pending',
     date: '2023-07-16',
   },
-  {
-    customer_id: customers[0].id,
-    amount: 666,
-    status: 'pending',
-    date: '2023-06-27',
-  },
+{
+  customer_id: customers[3].id,
+  amount: 666,
+  status: 'pending',
+  date: '2023-06-27',
+},
   {
     customer_id: customers[3].id,
     amount: 32545,
